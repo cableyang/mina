@@ -1,0 +1,88 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=17976, tid=3012
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x002b9000):  JavaThread "Unknown thread" [_thread_in_vm, id=3012, stack(0x00360000,0x003b0000)]
+
+Stack: [0x00360000,0x003b0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x002b9000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=3012, stack(0x00360000,0x003b0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files (x86)\Java\jdk1.6.0_10\bin\javaw.exe
+0x76fc0000 - 0x77117000 	C:\windows\SYSTEM32\ntdll.dll
+0x75270000 - 0x753a0000 	C:\windows\SYSTEM32\KERNEL32.DLL
+0x751b0000 - 0x75256000 	C:\windows\SYSTEM32\KERNELBASE.dll
+0x74b80000 - 0x74c2e000 	C:\windows\SYSTEM32\ADVAPI32.dll
+0x74f30000 - 0x75046000 	C:\windows\SYSTEM32\USER32.dll
+0x75580000 - 0x75631000 	C:\windows\SYSTEM32\msvcrt.dll
+0x74a60000 - 0x74a94000 	C:\windows\SYSTEM32\sechost.dll
+0x74c50000 - 0x74cfc000 	C:\windows\SYSTEM32\RPCRT4.dll
+0x76e00000 - 0x76efd000 	C:\windows\SYSTEM32\GDI32.dll
+0x745f0000 - 0x7460c000 	C:\windows\SYSTEM32\SspiCli.dll
+0x745e0000 - 0x745e9000 	C:\windows\SYSTEM32\CRYPTBASE.dll
+0x74580000 - 0x745d1000 	C:\windows\SYSTEM32\bcryptPrimitives.dll
+0x74c30000 - 0x74c50000 	C:\windows\system32\IMM32.DLL
+0x76850000 - 0x7692d000 	C:\windows\SYSTEM32\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin\client\jvm.dll
+0x74120000 - 0x74141000 	C:\windows\SYSTEM32\WINMM.dll
+0x740f0000 - 0x7411b000 	C:\windows\SYSTEM32\WINMMBASE.dll
+0x74b30000 - 0x74b76000 	C:\windows\SYSTEM32\cfgmgr32.dll
+0x74860000 - 0x7487e000 	C:\windows\SYSTEM32\DEVOBJ.dll
+0x72740000 - 0x727e7000 	C:\windows\system32\apphelp.dll
+0x6d330000 - 0x6d338000 	C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin\hpi.dll
+0x75050000 - 0x75056000 	C:\windows\SYSTEM32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:C:\sunnyTest\Android\install\adt-bundle-windows-x86-20130917\sdk\platforms\android-18\android.jar 
+java_command: com.org.mina.MainClient
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.6.0_10
+CLASSPATH=.;C:\Program Files (x86)\Java\jdk1.6.0_10\lib;C:\Program Files (x86)\Java\jdk1.6.0_10\lib\tools.jar
+PATH=C:/Program Files (x86)/Java/jdk1.6.0_10/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.6.0_10/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.6.0_10/bin/../jre/lib/i386;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\windows\System32£»C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\VisualSVN Server\bin;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin;C:\sunnyTest\Android\install\adt-bundle-windows-x86-20130917\eclipse;
+USERNAME=Sunny
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 8 (8 cores per cpu, 2 threads per core) family 6 model 10 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 4194303k(3810952k free), swap 4194303k(3153960k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Wed Mar 12 15:00:16 2014
+elapsed time: 0 seconds
+
